@@ -38,7 +38,7 @@ Olist E-commerce Dataset (Kaggle), contendo informações de pedidos, clientes, 
 
 ## 📊 Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](imagens/dashboard.png)
 
 ---
 
@@ -46,11 +46,11 @@ Olist E-commerce Dataset (Kaggle), contendo informações de pedidos, clientes, 
 
 ### Prazo vs Atraso
 
-![Prazo vs Atraso](images/prazo_vs_atraso.png)
+![Prazo vs Atraso](imagens/prazo_vs_atraso.png)
 
 ### Despacho vs Atraso
 
-![Despacho vs Atraso](images/despacho_vs_atraso.png)
+![Despacho vs Atraso](imagens/despacho_vs_atraso.png)
 
 ---
 
