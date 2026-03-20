@@ -1,4 +1,4 @@
-# 📊 E-commerce Logistics Analysis (Olist)
+# 📊 Análise de logística de comércio eletrônico (OLIST)
 
 ## 📌 Contexto
 
