@@ -33,6 +33,7 @@ Investigar os principais drivers de atraso logístico e gerar insights acionáve
 ## 🗂 Dataset
 
 Base utilizada: **Olist E-commerce Dataset (Kaggle)**
+
 Período analisado: **Set/2016 a Ago/2018**
 
 ---
