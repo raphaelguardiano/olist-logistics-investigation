@@ -137,26 +137,32 @@ Melhorias dependem de ações integradas ao longo de toda a cadeia de entrega.
 
 ---
 
-## 📎 Estrutura do Projeto
+## 📂 Estrutura dos Dados
 
-```text
-dados/
- ├── base_tratada/
-      ├── 01_base_analitica.xlsx
- ├── dados_brutos/
-       ├── olist_customers_dataset.xlsx
-├── olist_customers_dataset.xlsx
-dashboard/
- ├── 04_dashboard.xlsx
+### Dados Brutos
 
-analises/
- ├── olist_logistica_projeto.xlsx
+Os dados brutos foram obtidos do dataset público Olist (Kaggle) e incluem os seguintes arquivos:
 
-imagens/
- ├── dashboard.png
- ├── prazo_vs_atraso.png
- ├── despacho_vs_atraso.png
-```
+- olist_customers_dataset.csv  
+- olist_geolocation_dataset.csv  
+- olist_order_items_dataset.csv  
+- olist_order_payments_dataset.csv  
+- olist_order_reviews_dataset.csv  
+- olist_orders_dataset.csv  
+- olist_products_dataset.csv  
+- olist_sellers_dataset.csv  
+- product_category_name_translation.csv  
+
+---
+
+### Base Tratada
+
+A base analítica foi construída a partir da integração e tratamento dos dados brutos, consolidada na planilha:
+
+- `olist_logistica_projeto.xlsx`
+
+Essa base foi utilizada para cálculo das métricas, análises e construção do dashboard.
+
 
 ---
 
