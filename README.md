@@ -142,8 +142,10 @@ Melhorias dependem de ações integradas ao longo de toda a cadeia de entrega.
 ```text
 dados/
  ├── base_tratada/
+      ├── 01_base_analitica.xlsx
  ├── dados_brutos/
-
+       ├── olist_customers_dataset.xlsx
+├── olist_customers_dataset.xlsx
 dashboard/
  ├── 04_dashboard.xlsx
 
@@ -160,4 +162,8 @@ imagens/
 
 ## 📬 Contato
 
-Projeto desenvolvido como parte da transição para a área de Análise de Dados, com foco em resolução de problemas reais de negócio.
+Este projeto faz parte da minha transição para a área de Análise de Dados, com foco em resolver problemas reais de negócio com dados.
+
+Atualmente desenvolvo dashboards em Excel, análises de KPIs e organização de bases de dados para apoiar decisões.
+
+Aberto a oportunidades de projetos freelance e colaborações.
