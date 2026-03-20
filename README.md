@@ -2,7 +2,7 @@
 
 ## 📊 Dashboard
 
-![Dashboard](dashboard/dashboard_final.png)
+![Dashboard](imagens/dashboard.png)
 
 ---
 
@@ -53,7 +53,7 @@ Período analisado: **Set/2016 a Ago/2018**
 
 ### 1. Prazo de entrega vs atraso
 
-![Prazo vs atraso](images/prazo_vs_atraso.png)
+![Prazo vs atraso](imagens/prazo_vs_atraso.png)
 
 Pedidos com prazos mais longos apresentam aumento significativo na taxa de atraso.
 
@@ -61,7 +61,7 @@ Pedidos com prazos mais longos apresentam aumento significativo na taxa de atras
 
 ### 2. Tempo de despacho vs atraso
 
-![Despacho vs atraso](images/despacho_vs_atraso.png)
+![Despacho vs atraso](imagens/despacho_vs_atraso.png)
 
 O tempo de despacho dos vendedores impacta diretamente a probabilidade de atraso.
 
