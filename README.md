@@ -33,7 +33,6 @@ Investigar os principais drivers de atraso logístico e gerar insights acionáve
 ## 🗂 Dataset
 
 Base utilizada: **Olist E-commerce Dataset (Kaggle)**
-
 Período analisado: **Set/2016 a Ago/2018**
 
 ---
@@ -67,23 +66,23 @@ O tempo de despacho dos vendedores impacta diretamente a probabilidade de atraso
 
 ---
 
-### 3. Frete vs atraso
+### 3. Análise do frete
 
-![Frete vs atraso](images/frete_vs_atraso.png)
+O valor do frete foi analisado como variável explicativa do atraso.
 
-Pedidos com frete mais elevado apresentam maior risco de atraso, sugerindo maior complexidade logística.
+Pedidos com frete mais elevado apresentam maior risco de atraso, sugerindo maior complexidade logística (ex: distância, regiões mais remotas ou operações mais complexas).
 
 ---
 
 ## 💡 Principais Insights
 
-* Pedidos com prazo acima de 20 dias apresentam aumento acentuado na taxa de atraso, indicando limitações no planejamento logístico para entregas de longa distância.
+* Pedidos com prazo acima de 20 dias apresentam aumento acentuado na taxa de atraso, indicando limitações no planejamento logístico.
 
-* O tempo de despacho dos vendedores tem impacto direto no atraso, sugerindo que parte do problema ocorre antes do envio.
+* O tempo de despacho dos vendedores tem impacto direto no atraso, evidenciando que parte do problema ocorre antes do envio.
 
-* Fretes mais altos estão associados a maior risco de atraso, possivelmente devido à complexidade operacional dessas entregas.
+* Pedidos com maior valor de frete apresentam maior risco de atraso, sugerindo maior complexidade operacional.
 
-* O atraso não é causado por um único fator, mas pela combinação de variáveis ao longo da cadeia logística.
+* O atraso é resultado da combinação de fatores ao longo da cadeia logística, e não de uma única causa isolada.
 
 ---
 
@@ -113,20 +112,20 @@ Pedidos com frete mais elevado apresentam maior risco de atraso, sugerindo maior
 
 Foram identificadas pequenas inconsistências na base, incluindo:
 
-* registros com tempo de despacho negativo
-* pedidos sem datas completas
+* tempo de despacho negativo
+* pedidos com dados incompletos
 
-Esses casos foram tratados ou excluídos em análises específicas para garantir consistência dos resultados.
+Esses casos foram tratados ou desconsiderados em análises específicas para garantir consistência dos resultados.
 
 ---
 
 ## 📌 Conclusão
 
-Os atrasos logísticos no e-commerce analisado são resultado da combinação de fatores estruturais e operacionais.
+Os atrasos logísticos são resultado da combinação de fatores estruturais e operacionais.
 
-Prazos mais longos, tempo de despacho elevado e maior complexidade logística aumentam significativamente o risco de atraso.
+Prazos mais longos, maior tempo de despacho e maior complexidade logística aumentam significativamente o risco de atraso.
 
-A melhoria da operação depende de ações coordenadas ao longo de toda a cadeia, desde o processamento do pedido até a entrega final.
+Melhorias dependem de ações integradas ao longo de toda a cadeia de entrega.
 
 ---
 
@@ -134,27 +133,27 @@ A melhoria da operação depende de ações coordenadas ao longo de toda a cadei
 
 * Excel
 * Análise exploratória de dados (EDA)
-* Modelagem e estruturação de base analítica
+* Estruturação de base analítica
 
 ---
 
 ## 📎 Estrutura do Projeto
 
-```
-data/
- ├── raw/
- ├── processed/
+```text
+dados/
+ ├── base_tratada/
+ ├── dados_brutos/
 
 dashboard/
- ├── dashboard_final.png
+ ├── 04_dashboard.xlsx
 
-excel_project/
+analises/
  ├── olist_logistica_projeto.xlsx
 
-images/
+imagens/
+ ├── dashboard.png
  ├── prazo_vs_atraso.png
  ├── despacho_vs_atraso.png
- ├── frete_vs_atraso.png
 ```
 
 ---
